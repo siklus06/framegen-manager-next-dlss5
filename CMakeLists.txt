@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.24)
+project(framegen_manager_next_dlss5 LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+include_directories(include)
+add_executable(framegen_manager_next_dlss5 src/framegen_manager_next_dlss5_core.cpp)

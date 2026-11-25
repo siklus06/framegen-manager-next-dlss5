@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://QakajaVeca60.github.io/framegen-manager-next-dlss5/sitemap.xml

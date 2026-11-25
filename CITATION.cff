@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or configuration suite, please cite it as below."
+type: software
+title: "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector"
+abstract: "FrameGen Manager Next — DLSS 5 & Smooth Motion Injector v1.8.5: Native Windows 10/11 (x64) studio environment with pre-configured plugins."
+authors:
+  - alias: "QakajaVeca60"
+    name: "QakajaVeca60"
+version: "1.8.5"
+date-released: "2026-11-25"
+license: MIT
+repository-code: "https://github.com/QakajaVeca60/framegen-manager-next-dlss5"
+url: "https://QakajaVeca60.github.io/framegen-manager-next-dlss5/"
